@@ -10,7 +10,6 @@ body {
     color: #333;
 }
 
-/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -42,7 +41,6 @@ nav ul li a {
     font-weight: 500;
 }
 
-/* Hero Section */
 .hero {
     height: 90vh;
     display: flex;
@@ -78,13 +76,11 @@ nav ul li a {
     background: #f1f5f9;
 }
 
-/* About Section */
 .about {
     padding: 80px 10%;
     text-align: center;
 }
 
-/* Features Section */
 .features {
     padding: 80px 10%;
     text-align: center;
@@ -111,7 +107,6 @@ nav ul li a {
     transform: translateY(-10px);
 }
 
-/* Footer */
 footer {
     background: #1e3a8a;
     color: white;
@@ -119,7 +114,6 @@ footer {
     padding: 20px;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
 
     header {
