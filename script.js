@@ -60,3 +60,9 @@ function saveUser() {
   localStorage.setItem("password", password.value);
   alert("User Registered!");
 }
+function register() {
+  localStorage.setItem("email", email.value);
+  localStorage.setItem("password", password.value);
+
+  alert("User Registered Successfully!");
+}
