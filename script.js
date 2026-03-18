@@ -47,6 +47,9 @@ form.addEventListener("submit", function(e) {
 
   if (email.value === savedEmail && password.value === savedPass) {
     message.innerText = "Login Successful ✅";
+    setTimeout(() => {
+  window.location.href = "dashboard.html";
+}, 1000);
     message.style.color = "green";
   } else {
     message.innerText = "Invalid Credentials ❌";
